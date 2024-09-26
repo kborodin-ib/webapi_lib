@@ -1,0 +1,22 @@
+################################################
+
+Reference:
+
+Python testing with pytest. Book:
+https://habr.com/ru/articles/426699/
+
+Other articles and stuff:
+https://habr.com/ru/companies/otus/articles/741676/
+https://docs.pytest.org/en/7.1.x/how-to/monkeypatch.html#how-to-monkeypatch-mock-modules-and-environments
+
+Session
+
+/sso/validate
+
+Session expiraton under the 'EXPIRES' key is either in milliseconds or in Epoch time.
+
+milliseconds represent time left until expiration
+
+epoch time represents moment of time in the past when the session expired
+
+/tickle can be called to reopen the session, updating the epoch time to milliseconds

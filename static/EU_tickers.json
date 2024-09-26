@@ -1,0 +1,2166 @@
+{
+    "stocks": [
+        {
+            "conid": "13393297",
+            "companyHeader": "Mini Sized NY Silver Futures - NYSELIFFE",
+            "companyName": "Mini Sized NY Silver Futures",
+            "symbol": "YI",
+            "description": "NYSELIFFE",
+            "restricted": "IND",
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "IND",
+                    "exchange": "NYSELIFFE;"
+                }
+            ]
+        },
+        {
+            "conid": "31938146",
+            "companyHeader": "PACIFIC INSIGHT ELECTRONICS - VALUE",
+            "companyName": "PACIFIC INSIGHT ELECTRONICS",
+            "symbol": "PIH",
+            "description": "VALUE",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK",
+                    "exchange": "VALUE;"
+                }
+            ]
+        },
+        {
+            "conid": "463434418",
+            "companyHeader": "180 DEGREE CAPITAL CORP - NASDAQ",
+            "companyName": "180 DEGREE CAPITAL CORP",
+            "symbol": "TURN",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240621;20240920",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;JUN24;SEP24",
+                    "exchange": "SMART;BATS;BOX;CBOE;CBOE2;EDGX;EMERALD;IBUSOPT;ISE;MEMX;MERCURY;MIAX;NASDAQOM;PEARL;PHLX;PSE"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "6196030",
+            "companyHeader": "1-800-FLOWERS.COM INC-CL A - NASDAQ",
+            "companyName": "1-800-FLOWERS.COM INC-CL A",
+            "symbol": "FLWS",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240621;20240920",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;JUN24;SEP24",
+                    "exchange": "SMART;AMEX;BATS;BOX;CBOE;CBOE2;EDGX;EMERALD;GEMINI;IBUSOPT;ISE;MEMX;MERCURY;MIAX;NASDAQOM;PEARL;PHLX;PSE"
+                },
+                {
+                    "secType": "CFD",
+                    "exchange": "SMART",
+                    "conid": "266312508"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "502415480",
+            "companyHeader": "1895 BANCORP OF WISCONSIN IN - NASDAQ",
+            "companyName": "1895 BANCORP OF WISCONSIN IN",
+            "symbol": "BCOW",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                }
+            ]
+        },
+        {
+            "conid": "402183621",
+            "companyHeader": "1LIFE HEALTHCARE INC - VALUE",
+            "companyName": "1LIFE HEALTHCARE INC",
+            "symbol": "ONEM",
+            "description": "VALUE",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK",
+                    "exchange": "VALUE;"
+                }
+            ]
+        },
+        {
+            "conid": "14030567",
+            "companyHeader": "1ST CONSTITUTION BANCORP - VALUE",
+            "companyName": "1ST CONSTITUTION BANCORP",
+            "symbol": "FCCY",
+            "description": "VALUE",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK",
+                    "exchange": "VALUE;"
+                }
+            ]
+        },
+        {
+            "conid": "274628",
+            "companyHeader": "1ST SOURCE CORP - NASDAQ",
+            "companyName": "1ST SOURCE CORP",
+            "symbol": "SRCE",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240621;20240920",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;JUN24;SEP24",
+                    "exchange": "SMART;AMEX;BOX;GEMINI;IBUSOPT;ISE;MERCURY;NASDAQBX;NASDAQOM;PHLX"
+                },
+                {
+                    "secType": "CFD",
+                    "exchange": "SMART",
+                    "conid": "266311306"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "87356334",
+            "companyHeader": "VNET GROUP INC-ADR - NASDAQ",
+            "companyName": "VNET GROUP INC-ADR",
+            "symbol": "VNET",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240621;20240920",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;JUN24;SEP24",
+                    "exchange": "SMART;AMEX;BATS;BOX;CBOE;CBOE2;EDGX;EMERALD;GEMINI;IBUSOPT;ISE;MEMX;MERCURY;MIAX;NASDAQBX;NASDAQOM;PEARL;PHLX;PSE"
+                },
+                {
+                    "secType": "CFD",
+                    "exchange": "SMART",
+                    "conid": "231042613"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "147540466",
+            "companyHeader": "2U INC - NASDAQ",
+            "companyName": "2U INC",
+            "symbol": "TWOU",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240719;20241018;20250117",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;JUL24;OCT24;JAN25",
+                    "exchange": "SMART;AMEX;BATS;BOX;CBOE;CBOE2;EDGX;EMERALD;GEMINI;IBUSOPT;ISE;MEMX;MERCURY;MIAX;NASDAQOM;PEARL;PHLX;PSE"
+                },
+                {
+                    "secType": "IOPT"
+                },
+                {
+                    "secType": "CFD",
+                    "exchange": "SMART",
+                    "conid": "266312356"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "344997557",
+            "companyHeader": "QIFU TECHNOLOGY INC - NASDAQ",
+            "companyName": "QIFU TECHNOLOGY INC",
+            "symbol": "QFIN",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240517;20240816;20250117",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;MAY24;AUG24;JAN25",
+                    "exchange": "SMART;AMEX;BATS;BOX;CBOE;CBOE2;EDGX;EMERALD;GEMINI;IBUSOPT;ISE;MEMX;MIAX;NASDAQOM;PEARL;PHLX;PSE"
+                },
+                {
+                    "secType": "CFD",
+                    "exchange": "SMART",
+                    "conid": "384920020"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "390453794",
+            "companyHeader": "36KR HOLDINGS INC - NASDAQ",
+            "companyName": "36KR HOLDINGS INC",
+            "symbol": "KRKR",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                }
+            ]
+        },
+        {
+            "conid": "31005101",
+            "companyHeader": "51JOB INC-ADR - VALUE",
+            "companyName": "51JOB INC-ADR",
+            "symbol": "JOBS",
+            "description": "VALUE",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK",
+                    "exchange": "VALUE;"
+                }
+            ]
+        },
+        {
+            "conid": "391048326",
+            "companyHeader": "89BIO INC - NASDAQ",
+            "companyName": "89BIO INC",
+            "symbol": "ETNB",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240517;20240621;20240816;20250117",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;MAY24;JUN24;AUG24;JAN25",
+                    "exchange": "SMART;AMEX;BATS;BOX;CBOE;CBOE2;EDGX;EMERALD;GEMINI;IBUSOPT;ISE;MEMX;MERCURY;MIAX;NASDAQBX;NASDAQOM;PEARL;PHLX;PSE"
+                },
+                {
+                    "secType": "CFD",
+                    "exchange": "SMART",
+                    "conid": "658389194"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "358913702",
+            "companyHeader": "JFKKU 8I ENTERPRISES ACQUISITION C (VALUE) ",
+            "companyName": "8I ENTERPRISES ACQUISITION C (VALUE)",
+            "symbol": "JFKKU",
+            "description": null,
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [],
+            "secType": "STK"
+        },
+        {
+            "conid": "366264501",
+            "companyHeader": "8I ENTERPRISES ACQUISITI-RTS - VALUE",
+            "companyName": "8I ENTERPRISES ACQUISITI-RTS",
+            "symbol": "JFKKR",
+            "description": "VALUE",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK",
+                    "exchange": "VALUE;"
+                }
+            ]
+        },
+        {
+            "conid": "358913702",
+            "companyHeader": "8I ENTERPRISES ACQUISITION C - VALUE",
+            "companyName": "8I ENTERPRISES ACQUISITION C",
+            "symbol": "JFKKU",
+            "description": "VALUE",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK",
+                    "exchange": "VALUE;"
+                }
+            ]
+        },
+        {
+            "conid": "4730018",
+            "companyHeader": "8X8 INC - NASDAQ",
+            "companyName": "8X8 INC",
+            "symbol": "EGHT",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240517;20240816",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;MAY24;AUG24",
+                    "exchange": "SMART;AMEX;BATS;BOX;CBOE;CBOE2;EDGX;EMERALD;GEMINI;IBUSOPT;ISE;MEMX;MERCURY;MIAX;NASDAQBX;NASDAQOM;PEARL;PHLX;PSE"
+                },
+                {
+                    "secType": "CFD",
+                    "exchange": "SMART",
+                    "conid": "266312154"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "591895211",
+            "companyHeader": "NMTRQ 9 METERS BIOPHARMA INC (PINK) ",
+            "companyName": "9 METERS BIOPHARMA INC (PINK)",
+            "symbol": "NMTRQ",
+            "description": null,
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [],
+            "secType": "STK"
+        },
+        {
+            "conid": "608473700",
+            "companyHeader": "9F INC - ADR - NASDAQ",
+            "companyName": "9F INC - ADR",
+            "symbol": "JFU",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                }
+            ]
+        },
+        {
+            "conid": "265595",
+            "companyHeader": "AAON INC - NASDAQ",
+            "companyName": "AAON INC",
+            "symbol": "AAON",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240719;20241018",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;JUL24;OCT24",
+                    "exchange": "SMART;AMEX;BATS;BOX;CBOE;CBOE2;EDGX;EMERALD;IBUSOPT;ISE;MERCURY;MIAX;NASDAQOM;PEARL;PHLX"
+                },
+                {
+                    "secType": "IOPT"
+                },
+                {
+                    "secType": "CFD",
+                    "exchange": "SMART",
+                    "conid": "266310656"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "571221112",
+            "companyHeader": "ABEONA THERAPEUTICS INC - NASDAQ",
+            "companyName": "ABEONA THERAPEUTICS INC",
+            "symbol": "ABEO",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240621;20240920;20241220",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;JUN24;SEP24;DEC24",
+                    "exchange": "SMART;AMEX;BATS;BOX;CBOE;CBOE2;EDGX;GEMINI;IBUSOPT;ISE;MEMX;MERCURY;NASDAQBX;NASDAQOM;PHLX;PSE"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "265655",
+            "companyHeader": "ABIOMED INC - VALUE",
+            "companyName": "ABIOMED INC",
+            "symbol": "ABMD",
+            "description": "VALUE",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK",
+                    "exchange": "VALUE;"
+                }
+            ]
+        },
+        {
+            "conid": "450750381",
+            "companyHeader": "ABRAXAS PETROLEUM CORP - VALUE",
+            "companyName": "ABRAXAS PETROLEUM CORP",
+            "symbol": "AXAS",
+            "description": "VALUE",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK",
+                    "exchange": "VALUE;"
+                }
+            ]
+        },
+        {
+            "conid": "249028349",
+            "companyHeader": "AC IMMUNE SA - NASDAQ",
+            "companyName": "AC IMMUNE SA",
+            "symbol": "ACIU",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240517;20240816",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;MAY24;AUG24",
+                    "exchange": "SMART;AMEX;BOX;EMERALD;GEMINI;IBUSOPT;ISE;MEMX;MERCURY;MIAX;NASDAQBX;NASDAQOM;PEARL;PHLX;PSE"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "233350164",
+            "companyHeader": "ACACIA COMMUNICATIONS INC - VALUE",
+            "companyName": "ACACIA COMMUNICATIONS INC",
+            "symbol": "ACIA",
+            "description": "VALUE",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK",
+                    "exchange": "VALUE;"
+                }
+            ]
+        },
+        {
+            "conid": "16699274",
+            "companyHeader": "ACACIA RESEARCH CORP - NASDAQ",
+            "companyName": "ACACIA RESEARCH CORP",
+            "symbol": "ACTG",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240517;20240816",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;MAY24;AUG24",
+                    "exchange": "SMART;AMEX;BATS;BOX;CBOE;CBOE2;EDGX;EMERALD;GEMINI;IBUSOPT;ISE;MEMX;MERCURY;MIAX;NASDAQBX;NASDAQOM;PEARL;PHLX;PSE"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "96983623",
+            "companyHeader": "ACADIA HEALTHCARE CO INC - NASDAQ",
+            "companyName": "ACADIA HEALTHCARE CO INC",
+            "symbol": "ACHC",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240621;20240920;20241220;20250117",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;JUN24;SEP24;DEC24;JAN25",
+                    "exchange": "SMART;AMEX;BATS;BOX;CBOE;CBOE2;EDGX;EMERALD;GEMINI;IBUSOPT;ISE;MEMX;MIAX;NASDAQBX;NASDAQOM;PEARL;PHLX;PSE"
+                },
+                {
+                    "secType": "CFD",
+                    "exchange": "SMART",
+                    "conid": "179387112"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "29308796",
+            "companyHeader": "ACADIA PHARMACEUTICALS INC - NASDAQ",
+            "companyName": "ACADIA PHARMACEUTICALS INC",
+            "symbol": "ACAD",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240621;20240920;20250117;20251219",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;JUN24;SEP24;JAN25;DEC25",
+                    "exchange": "SMART;AMEX;BATS;BOX;CBOE;CBOE2;EDGX;EMERALD;GEMINI;IBUSOPT;ISE;MEMX;MERCURY;MIAX;NASDAQBX;NASDAQOM;PEARL;PHLX;PSE"
+                },
+                {
+                    "secType": "CFD",
+                    "exchange": "SMART",
+                    "conid": "179385992"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "354819764",
+            "companyHeader": "ACAMU CARLOTZ INC (VALUE) ",
+            "companyName": "CARLOTZ INC (VALUE)",
+            "symbol": "ACAMU",
+            "description": null,
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [],
+            "secType": "STK"
+        },
+        {
+            "conid": "354819764",
+            "companyHeader": "CARLOTZ INC - VALUE",
+            "companyName": "CARLOTZ INC",
+            "symbol": "ACAMU",
+            "description": "VALUE",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK",
+                    "exchange": "VALUE;"
+                }
+            ]
+        },
+        {
+            "conid": "641331261",
+            "companyHeader": "ACASTI PHARMA INC - NASDAQ",
+            "companyName": "ACASTI PHARMA INC",
+            "symbol": "ACST",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                }
+            ]
+        },
+        {
+            "conid": "641665703",
+            "companyHeader": "ACCELERATE DIAGNOSTICS INC - NASDAQ",
+            "companyName": "ACCELERATE DIAGNOSTICS INC",
+            "symbol": "AXDX",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240621;20240920;20241220",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;JUN24;SEP24;DEC24",
+                    "exchange": "SMART;AMEX;BATS;BOX;CBOE;CBOE2;EDGX;EMERALD;GEMINI;IBUSOPT;ISE;MERCURY;MIAX;NASDAQBX;NASDAQOM;PEARL;PHLX"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "141162496",
+            "companyHeader": "ACCPX AMCEN CORE PLUS-R (American Century) (FUNDSERV) ",
+            "companyName": "AMCEN CORE PLUS-R (American Century) (FUNDSERV)",
+            "symbol": "ACCPX",
+            "description": null,
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [],
+            "secType": "FUND"
+        },
+        {
+            "conid": "134581266",
+            "companyHeader": "ACCELERON PHARMA INC - VALUE",
+            "companyName": "ACCELERON PHARMA INC",
+            "symbol": "XLRN",
+            "description": "VALUE",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK",
+                    "exchange": "VALUE;"
+                },
+                {
+                    "secType": "CFD",
+                    "exchange": "SMART",
+                    "conid": "266317750"
+                }
+            ]
+        },
+        {
+            "conid": "431039863",
+            "companyHeader": "ACCOLADE INC - NASDAQ",
+            "companyName": "ACCOLADE INC",
+            "symbol": "ACCD",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240621;20240719;20241018;20241220;20250117",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;JUN24;JUL24;OCT24;DEC24;JAN25",
+                    "exchange": "SMART;AMEX;BATS;BOX;CBOE;CBOE2;EDGX;EMERALD;GEMINI;IBUSOPT;ISE;MEMX;MERCURY;MIAX;NASDAQBX;NASDAQOM;PEARL;PHLX;PSE"
+                },
+                {
+                    "secType": "CFD",
+                    "exchange": "SMART",
+                    "conid": "451397502"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "42843151",
+            "companyHeader": "ACCURAY INC - NASDAQ",
+            "companyName": "ACCURAY INC",
+            "symbol": "ARAY",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240621;20240920",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;JUN24;SEP24",
+                    "exchange": "SMART;BATS;BOX;CBOE;CBOE2;EDGX;EMERALD;GEMINI;IBUSOPT;ISE;MEMX;MERCURY;MIAX;NASDAQBX;NASDAQOM;PEARL;PHLX;PSE"
+                },
+                {
+                    "secType": "CFD",
+                    "exchange": "SMART",
+                    "conid": "314723413"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "436070366",
+            "companyHeader": "TEMPO AUTOMATION HOLDINGS INC - VALUE",
+            "companyName": "TEMPO AUTOMATION HOLDINGS INC",
+            "symbol": "ACEVU",
+            "description": "VALUE",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK",
+                    "exchange": "VALUE;"
+                }
+            ]
+        },
+        {
+            "conid": "589359943",
+            "companyHeader": "ACLLY ACCELLERON INDUSTRIES AG (PINK) ",
+            "companyName": "ACCELLERON INDUSTRIES AG (PINK)",
+            "symbol": "ACLLY",
+            "description": null,
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [],
+            "secType": "STK"
+        },
+        {
+            "conid": "290087375",
+            "companyHeader": "ACER THERAPEUTICS INC - VALUE",
+            "companyName": "ACER THERAPEUTICS INC",
+            "symbol": "ACER",
+            "description": "VALUE",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK",
+                    "exchange": "VALUE;"
+                }
+            ]
+        },
+        {
+            "conid": "437395849",
+            "companyHeader": "ACHIEVE LIFE SCIENCES INC - NASDAQ",
+            "companyName": "ACHIEVE LIFE SCIENCES INC",
+            "symbol": "ACHV",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240621;20240920",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;JUN24;SEP24",
+                    "exchange": "SMART;AMEX;BATS;BOX;CBOE;CBOE2;EDGX;EMERALD;GEMINI;IBUSOPT;ISE;MEMX;MERCURY;MIAX;NASDAQBX;NASDAQOM;PEARL;PHLX;PSE"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "45427720",
+            "companyHeader": "ACI WORLDWIDE INC - NASDAQ",
+            "companyName": "ACI WORLDWIDE INC",
+            "symbol": "ACIW",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240517;20240816",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;MAY24;AUG24",
+                    "exchange": "SMART;AMEX;BATS;BOX;CBOE;CBOE2;EDGX;EMERALD;GEMINI;IBUSOPT;ISE;MERCURY;MIAX;NASDAQOM;PEARL;PHLX"
+                },
+                {
+                    "secType": "IOPT"
+                },
+                {
+                    "secType": "CFD",
+                    "exchange": "SMART",
+                    "conid": "128832507"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "209011562",
+            "companyHeader": "ACLARIS THERAPEUTICS INC - NASDAQ",
+            "companyName": "ACLARIS THERAPEUTICS INC",
+            "symbol": "ACRS",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240517;20240816",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;MAY24;AUG24",
+                    "exchange": "SMART;AMEX;BATS;BOX;CBOE;CBOE2;EDGX;EMERALD;GEMINI;IBUSOPT;ISE;MEMX;MERCURY;MIAX;NASDAQBX;NASDAQOM;PEARL;PHLX;PSE"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "295043917",
+            "companyHeader": "ACM RESEARCH INC-CLASS A - NASDAQ",
+            "companyName": "ACM RESEARCH INC-CLASS A",
+            "symbol": "ACMR",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240517;20240816;20250117;20260116",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;MAY24;AUG24;JAN25;JAN26",
+                    "exchange": "SMART;AMEX;BATS;BOX;CBOE;CBOE2;EDGX;EMERALD;GEMINI;IBUSOPT;MEMX;MERCURY;MIAX;NASDAQBX;NASDAQOM;PEARL;PHLX;PSE"
+                },
+                {
+                    "secType": "CFD",
+                    "exchange": "SMART",
+                    "conid": "451395605"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "30207417",
+            "companyHeader": "ACNB CORP - NASDAQ",
+            "companyName": "ACNB CORP",
+            "symbol": "ACNB",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240719;20241018",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;JUL24;OCT24",
+                    "exchange": "SMART;AMEX;BATS;BOX;CBOE;CBOE2;EDGX;GEMINI;IBUSOPT;ISE;MERCURY;NASDAQBX;NASDAQOM;PHLX"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "635067330",
+            "companyHeader": "ACORDA THERAPEUTICS INC - NASDAQ",
+            "companyName": "ACORDA THERAPEUTICS INC",
+            "symbol": "ACOR",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "CFD",
+                    "exchange": "SMART",
+                    "conid": "179386258"
+                }
+            ]
+        },
+        {
+            "conid": "108161848",
+            "companyHeader": "ACTIVISION BLIZZARD INC - MEXI",
+            "companyName": "ACTIVISION BLIZZARD INC",
+            "symbol": "ATVI",
+            "description": "MEXI",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK",
+                    "exchange": "MEXI;"
+                }
+            ]
+        },
+        {
+            "conid": "148230374",
+            "companyHeader": "ADAMAS PHARMACEUTICALS INC - VALUE",
+            "companyName": "ADAMAS PHARMACEUTICALS INC",
+            "symbol": "ADMS",
+            "description": "VALUE",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK",
+                    "exchange": "VALUE;"
+                }
+            ]
+        },
+        {
+            "conid": "391048323",
+            "companyHeader": "ADAPTHEALTH CORP - NASDAQ",
+            "companyName": "ADAPTHEALTH CORP",
+            "symbol": "AHCO",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240621;20240920;20241220",
+            "war": "20241108",
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;JUN24;SEP24;DEC24",
+                    "exchange": "SMART;AMEX;BATS;BOX;CBOE;CBOE2;EDGX;EMERALD;GEMINI;IBUSOPT;ISE;MEMX;MERCURY;MIAX;NASDAQBX;NASDAQOM;PEARL;PHLX;PSE"
+                },
+                {
+                    "secType": "WAR",
+                    "months": "NOV24",
+                    "exchange": "VALUE"
+                },
+                {
+                    "secType": "CFD",
+                    "exchange": "SMART",
+                    "conid": "451396878"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "193517767",
+            "companyHeader": "ADAPTIMMUNE THERAPEUTICS-ADR - NASDAQ",
+            "companyName": "ADAPTIMMUNE THERAPEUTICS-ADR",
+            "symbol": "ADAP",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240621;20240920",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;JUN24;SEP24",
+                    "exchange": "SMART;AMEX;BATS;BOX;CBOE;CBOE2;EDGX;EMERALD;GEMINI;IBUSOPT;ISE;MEMX;MERCURY;MIAX;NASDAQBX;NASDAQOM;PEARL;PHLX;PSE"
+                },
+                {
+                    "secType": "CFD",
+                    "exchange": "SMART",
+                    "conid": "451394990"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "372849716",
+            "companyHeader": "ADAPTIVE BIOTECHNOLOGIES - NASDAQ",
+            "companyName": "ADAPTIVE BIOTECHNOLOGIES",
+            "symbol": "ADPT",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240719;20241018",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;JUL24;OCT24",
+                    "exchange": "SMART;AMEX;BATS;BOX;CBOE;CBOE2;EDGX;EMERALD;IBUSOPT;ISE;MEMX;MIAX;PEARL;PHLX;PSE"
+                },
+                {
+                    "secType": "IOPT"
+                },
+                {
+                    "secType": "CFD",
+                    "exchange": "SMART",
+                    "conid": "384920279"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "661246911",
+            "companyHeader": "ADDEX THERAPEUTICS LTD - NASDAQ",
+            "companyName": "ADDEX THERAPEUTICS LTD",
+            "symbol": "ADXN",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                }
+            ]
+        },
+        {
+            "conid": "69790398",
+            "companyHeader": "ADDUS HOMECARE CORP - NASDAQ",
+            "companyName": "ADDUS HOMECARE CORP",
+            "symbol": "ADUS",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240719;20241018",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;JUL24;OCT24",
+                    "exchange": "SMART;AMEX;BOX;CBOE;EMERALD;IBUSOPT;MIAX;PEARL;PHLX"
+                },
+                {
+                    "secType": "CFD",
+                    "exchange": "SMART",
+                    "conid": "314724179"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "328849154",
+            "companyHeader": "AEYE AUDIOEYE INC (NASDAQ) ",
+            "companyName": "AUDIOEYE INC (NASDAQ)",
+            "symbol": "AEYE",
+            "description": null,
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [],
+            "secType": "STK"
+        },
+        {
+            "conid": "646782490",
+            "companyHeader": "ADIAL PHARMACEUTICALS INC  - NASDAQ",
+            "companyName": "ADIAL PHARMACEUTICALS INC ",
+            "symbol": "ADIL",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                }
+            ]
+        },
+        {
+            "conid": "649165408",
+            "companyHeader": "ADITXT INC - NASDAQ",
+            "companyName": "ADITXT INC",
+            "symbol": "ADTX",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                }
+            ]
+        },
+        {
+            "conid": "136375641",
+            "companyHeader": "ADMA BIOLOGICS INC - NASDAQ",
+            "companyName": "ADMA BIOLOGICS INC",
+            "symbol": "ADMA",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240517;20240816;20241220;20250117",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;MAY24;AUG24;DEC24;JAN25",
+                    "exchange": "SMART;AMEX;BATS;BOX;CBOE;CBOE2;EDGX;EMERALD;GEMINI;IBUSOPT;ISE;MEMX;MERCURY;MIAX;NASDAQBX;NASDAQOM;PEARL;PHLX;PSE"
+                },
+                {
+                    "secType": "CFD",
+                    "exchange": "SMART",
+                    "conid": "658389045"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "265768",
+            "companyHeader": "ADOBE INC - NASDAQ",
+            "companyName": "ADOBE INC",
+            "symbol": "ADBE",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240301;20240308;20240315;20240322;20240328;20240405;20240412;20240419;20240517;20240621;20240719;20240816;20240920;20241018;20241220;20250117;20250620;20260116;20261218",
+            "war": "20240129;20240130;20240201;20240202;20240205;20240206;20240207;20240208;20240209;20240213;20240214;20240215;20240216;20240219;20240221;20240222;20240223;20240228;20240229;20240301;20240308;20240312;20240313;20240314;20240315;20240322;20240416;20240417;20240418;20240419;20240514;20240515;20240516;20240517;20240618;20240619;20240620;20240621;20240718;20240815;20240917;20240918;20240919;20240920;20241017;20241217;20241218;20241219;20241220;20250114;20250115;20250116;20250117;20250319;20250320;20250321;20250617;20250618;20250619;20250620;20250918;20250919;20251216;20251218;20251219;20260113;20260114;20260115;20260116;20260319;20260617;20260618;20270114",
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;MAY24;JUN24;JUL24;AUG24;SEP24;OCT24;DEC24;JAN25;JUN25;JAN26;DEC26",
+                    "exchange": "SMART;AMEX;BATS;BOX;CBOE;CBOE2;EDGX;EMERALD;GEMINI;IBUSOPT;ISE;MEMX;MERCURY;MIAX;NASDAQBX;NASDAQOM;PEARL;PHLX;PSE"
+                },
+                {
+                    "secType": "WAR",
+                    "months": "JAN24;FEB24;MAR24;APR24;MAY24;JUN24;JUL24;AUG24;SEP24;OCT24;DEC24;JAN25;MAR25;JUN25;SEP25;DEC25;JAN26;MAR26;JUN26;JAN27",
+                    "exchange": "FWB;GETTEX;SBF;SWB"
+                },
+                {
+                    "secType": "IOPT"
+                },
+                {
+                    "secType": "CFD",
+                    "exchange": "SMART",
+                    "conid": "120549933"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "572349097",
+            "companyHeader": "ADTRAN HOLDINGS INC - NASDAQ",
+            "companyName": "ADTRAN HOLDINGS INC",
+            "symbol": "ADTN",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240517;20240816;20241018;20241220",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;MAY24;AUG24;OCT24;DEC24",
+                    "exchange": "SMART;AMEX;BATS;BOX;CBOE;CBOE2;EDGX;EMERALD;GEMINI;IBUSOPT;ISE;MEMX;MERCURY;MIAX;NASDAQBX;NASDAQOM;PEARL;PHLX;PSE"
+                },
+                {
+                    "secType": "CFD",
+                    "exchange": "SMART",
+                    "conid": "128833185"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "209464512",
+            "companyHeader": "ADROITINF ADROIT INFOTECH LTD (NSE) ",
+            "companyName": "ADROIT INFOTECH LTD (NSE)",
+            "symbol": "ADROITINF",
+            "description": null,
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [],
+            "secType": "STK"
+        },
+        {
+            "conid": "275577699",
+            "companyHeader": "ADESl.OLD ADES INTERNATIONAL HOLDING P (VALUE) ",
+            "companyName": "ADES INTERNATIONAL HOLDING P (VALUE)",
+            "symbol": "ADESl.OLD",
+            "description": null,
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [],
+            "secType": "STK"
+        },
+        {
+            "conid": "4725946",
+            "companyHeader": "ADVANCED ENERGY INDUSTRIES - NASDAQ",
+            "companyName": "ADVANCED ENERGY INDUSTRIES",
+            "symbol": "AEIS",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240517;20240719;20240816;20241018;20241115",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;MAY24;JUL24;AUG24;OCT24;NOV24",
+                    "exchange": "SMART;AMEX;BATS;BOX;CBOE;CBOE2;EDGX;EMERALD;GEMINI;IBUSOPT;ISE;MERCURY;MIAX;NASDAQOM;PEARL;PHLX"
+                },
+                {
+                    "secType": "CFD",
+                    "exchange": "SMART",
+                    "conid": "231042606"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "4391",
+            "companyHeader": "ADVANCED MICRO DEVICES - NASDAQ",
+            "companyName": "ADVANCED MICRO DEVICES",
+            "symbol": "AMD",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240301;20240308;20240315;20240322;20240328;20240405;20240412;20240419;20240517;20240621;20240719;20240816;20240920;20241018;20241115;20241220;20250117;20250620;20250815;20251017;20251121;20251219;20260116;20260618;20261218",
+            "war": "20240129;20240130;20240201;20240202;20240205;20240206;20240208;20240209;20240212;20240213;20240214;20240215;20240216;20240222;20240223;20240227;20240228;20240229;20240301;20240308;20240312;20240313;20240314;20240315;20240322;20240328;20240405;20240416;20240417;20240418;20240419;20240514;20240515;20240516;20240517;20240614;20240617;20240618;20240619;20240620;20240621;20240718;20240815;20240917;20240918;20240919;20240920;20241017;20241114;20241217;20241218;20241219;20241220;20250114;20250115;20250116;20250117;20250319;20250320;20250321;20250617;20250618;20250619;20250620;20250814;20250918;20250919;20251016;20251120;20251216;20251218;20251219;20260113;20260114;20260115;20260116;20260319;20260618;20260917;20261217;20270114",
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;MAY24;JUN24;JUL24;AUG24;SEP24;OCT24;NOV24;DEC24;JAN25;JUN25;AUG25;OCT25;NOV25;DEC25;JAN26;JUN26;DEC26",
+                    "exchange": "SMART;AMEX;BATS;BOX;CBOE;CBOE2;EDGX;EMERALD;GEMINI;IBUSOPT;ISE;MEMX;MERCURY;MIAX;NASDAQBX;NASDAQOM;PEARL;PHLX;PSE"
+                },
+                {
+                    "secType": "WAR",
+                    "months": "JAN24;FEB24;MAR24;APR24;MAY24;JUN24;JUL24;AUG24;SEP24;OCT24;NOV24;DEC24;JAN25;MAR25;JUN25;AUG25;SEP25;OCT25;NOV25;DEC25;JAN26;MAR26;JUN26;SEP26;DEC26;JAN27",
+                    "exchange": "BVME;EBS;FWB;GETTEX;SBF;SWB"
+                },
+                {
+                    "secType": "IOPT"
+                },
+                {
+                    "secType": "CFD",
+                    "exchange": "SMART",
+                    "conid": "120552972"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "565846550",
+            "companyHeader": "AYALA PHARMACEUTICALS INC - PINK",
+            "companyName": "AYALA PHARMACEUTICALS INC",
+            "symbol": "ADXS",
+            "description": "PINK",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                }
+            ]
+        },
+        {
+            "conid": "233146271",
+            "companyHeader": "ADVERUM BIOTECHNOLOGIES INC - NASDAQ",
+            "companyName": "ADVERUM BIOTECHNOLOGIES INC",
+            "symbol": "ADVM",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240621;20240920",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;JUN24;SEP24",
+                    "exchange": "SMART;AMEX;BATS;BOX;CBOE;CBOE2;EDGX;EMERALD;GEMINI;IBUSOPT;ISE;MEMX;MERCURY;MIAX;NASDAQBX;NASDAQOM;PEARL;PHLX;PSE"
+                },
+                {
+                    "secType": "CFD",
+                    "exchange": "SMART",
+                    "conid": "314728205"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "397514104",
+            "companyHeader": "DWEQ.OLD ADVISORSHARES D/W ALPH EQ WT (VALUE) ",
+            "companyName": "ADVISORSHARES D/W ALPH EQ WT (VALUE)",
+            "symbol": "DWEQ.OLD",
+            "description": null,
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [],
+            "secType": "STK"
+        },
+        {
+            "conid": "397514109",
+            "companyHeader": "ADVISORSHARES D/W FSM CAP - NASDAQ",
+            "companyName": "ADVISORSHARES D/W FSM CAP",
+            "symbol": "DWAW",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                }
+            ]
+        },
+        {
+            "conid": "397514103",
+            "companyHeader": "ADVISORSHARES D/W FSM CORE - NASDAQ",
+            "companyName": "ADVISORSHARES D/W FSM CORE",
+            "symbol": "DWUS",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                }
+            ]
+        },
+        {
+            "conid": "325456972",
+            "companyHeader": "DWMC.OLD ADVISORSHARES DORSEY MC ETF (VALUE) ",
+            "companyName": "ADVISORSHARES DORSEY MC ETF (VALUE)",
+            "symbol": "DWMC.OLD",
+            "description": null,
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [],
+            "secType": "STK"
+        },
+        {
+            "conid": "325456978",
+            "companyHeader": "ADVISORSHARES DORSEY WS ETF - NASDAQ",
+            "companyName": "ADVISORSHARES DORSEY WS ETF",
+            "symbol": "DWSH",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                }
+            ]
+        },
+        {
+            "conid": "490639140",
+            "companyHeader": "ENACT HOLDINGS INC - NASDAQ",
+            "companyName": "ENACT HOLDINGS INC",
+            "symbol": "ACT",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240719;20241018",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;JUL24;OCT24",
+                    "exchange": "SMART;AMEX;BATS;BOX;CBOE;CBOE2;EDGX;GEMINI;IBUSOPT;ISE;MEMX;MERCURY;NASDAQBX;NASDAQOM;PHLX;PSE"
+                },
+                {
+                    "secType": "CFD",
+                    "exchange": "SMART",
+                    "conid": "519075189"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "96724118",
+            "companyHeader": "AEGION CORP - VALUE",
+            "companyName": "AEGION CORP",
+            "symbol": "AEGN",
+            "description": "VALUE",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK",
+                    "exchange": "VALUE;"
+                }
+            ]
+        },
+        {
+            "conid": "641848897",
+            "companyHeader": "AGLE.CNT CONTRA AEGLEA BIOTHERA + (VALUE) ",
+            "companyName": "CONTRA AEGLEA BIOTHERA + (VALUE)",
+            "symbol": "AGLE.CNT",
+            "description": null,
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [],
+            "secType": "STK"
+        },
+        {
+            "conid": "4725941",
+            "companyHeader": "AEHR TEST SYSTEMS - NASDAQ",
+            "companyName": "AEHR TEST SYSTEMS",
+            "symbol": "AEHR",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240621;20240719;20240920;20241018;20250117;20260116",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;JUN24;JUL24;SEP24;OCT24;JAN25;JAN26",
+                    "exchange": "SMART;AMEX;BATS;BOX;CBOE;CBOE2;EDGX;EMERALD;GEMINI;IBUSOPT;ISE;MEMX;MERCURY;MIAX;NASDAQBX;NASDAQOM;PEARL;PHLX;PSE"
+                },
+                {
+                    "secType": "CFD",
+                    "exchange": "SMART",
+                    "conid": "640790880"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "151367747",
+            "companyHeader": "AEMETIS INC - NASDAQ",
+            "companyName": "AEMETIS INC",
+            "symbol": "AMTX",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240719;20241018;20250117;20260116",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;JUL24;OCT24;JAN25;JAN26",
+                    "exchange": "SMART;AMEX;BATS;BOX;CBOE;CBOE2;EDGX;EMERALD;GEMINI;IBUSOPT;ISE;MEMX;MERCURY;MIAX;NASDAQBX;NASDAQOM;PEARL;PHLX;PSE"
+                },
+                {
+                    "secType": "CFD",
+                    "exchange": "SMART",
+                    "conid": "481697693"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "137407026",
+            "companyHeader": "AERIE PHARMACEUTICALS INC - VALUE",
+            "companyName": "AERIE PHARMACEUTICALS INC",
+            "symbol": "AERI",
+            "description": "VALUE",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK",
+                    "exchange": "VALUE;"
+                }
+            ]
+        },
+        {
+            "conid": "42464367",
+            "companyHeader": "AEROVIRONMENT INC - NASDAQ",
+            "companyName": "AEROVIRONMENT INC",
+            "symbol": "AVAV",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240621;20240719;20240920",
+            "war": "20240315;20240621",
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;JUN24;JUL24;SEP24",
+                    "exchange": "SMART;AMEX;BATS;BOX;CBOE;CBOE2;EDGX;EMERALD;GEMINI;IBUSOPT;ISE;MEMX;MERCURY;MIAX;NASDAQBX;NASDAQOM;PEARL;PHLX;PSE"
+                },
+                {
+                    "secType": "WAR",
+                    "months": "MAR24;JUN24",
+                    "exchange": "SWB"
+                },
+                {
+                    "secType": "IOPT"
+                },
+                {
+                    "secType": "CFD",
+                    "exchange": "SMART",
+                    "conid": "266315786"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "388807582",
+            "companyHeader": "AESTHETIC MEDICAL INTERN-ADR - NASDAQ",
+            "companyName": "AESTHETIC MEDICAL INTERN-ADR",
+            "symbol": "AIH",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                }
+            ]
+        },
+        {
+            "conid": "574941507",
+            "companyHeader": "AETERNA ZENTARIS INC - NASDAQ",
+            "companyName": "AETERNA ZENTARIS INC",
+            "symbol": "AEZS",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                }
+            ]
+        },
+        {
+            "conid": "658085926",
+            "companyHeader": "AETHLON MEDICAL INC - NASDAQ",
+            "companyName": "AETHLON MEDICAL INC",
+            "symbol": "AEMD",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                }
+            ]
+        },
+        {
+            "conid": "166634891",
+            "companyHeader": "AFFIMED NV - NASDAQ",
+            "companyName": "AFFIMED NV",
+            "symbol": "AFMD",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240719;20241018",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;JUL24;OCT24",
+                    "exchange": "SMART;AMEX;BATS;BOX;CBOE;CBOE2;EDGX;EMERALD;GEMINI;IBUSOPT;ISE;MERCURY;MIAX;NASDAQBX;NASDAQOM;PEARL;PHLX"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "374970583",
+            "companyHeader": "AFYA LTD-CLASS A - NASDAQ",
+            "companyName": "AFYA LTD-CLASS A",
+            "symbol": "AFYA",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240621;20240920",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;JUN24;SEP24",
+                    "exchange": "SMART;BATS;BOX;CBOE;CBOE2;EDGX;GEMINI;IBUSOPT;ISE;PHLX"
+                },
+                {
+                    "secType": "CFD",
+                    "exchange": "SMART",
+                    "conid": "384920351"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "597690537",
+            "companyHeader": "AGBA GROUP HOLDING LTD - NASDAQ",
+            "companyName": "AGBA GROUP HOLDING LTD",
+            "symbol": "AGBA",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": "20240510",
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "WAR",
+                    "months": "MAY24",
+                    "exchange": "SMART;ARCA;BATS;BEX;BYX;CHX;DRCTEDGE;EDGEA;IEX;ISE;LTSE;MEMX;NASDAQ;NYSENAT;PEARL;PSX"
+                }
+            ]
+        },
+        {
+            "conid": "374627688",
+            "companyHeader": "AGBA ACQUISITION LTD-RIGHTS - VALUE",
+            "companyName": "AGBA ACQUISITION LTD-RIGHTS",
+            "symbol": "AGBAR",
+            "description": "VALUE",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK",
+                    "exchange": "VALUE;"
+                }
+            ]
+        },
+        {
+            "conid": "365938641",
+            "companyHeader": "AGBA GROUP HOLDING LTD - VALUE",
+            "companyName": "AGBA GROUP HOLDING LTD",
+            "symbol": "AGBAU",
+            "description": "VALUE",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK",
+                    "exchange": "VALUE;"
+                }
+            ]
+        },
+        {
+            "conid": "95448085",
+            "companyHeader": "AGENUS INC - NASDAQ",
+            "companyName": "AGENUS INC",
+            "symbol": "AGEN",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240517;20240816;20250117",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;MAY24;AUG24;JAN25",
+                    "exchange": "SMART;AMEX;BATS;BOX;CBOE;CBOE2;EDGX;EMERALD;GEMINI;IBUSOPT;ISE;MEMX;MERCURY;MIAX;NASDAQBX;NASDAQOM;PEARL;PHLX;PSE"
+                },
+                {
+                    "secType": "CFD",
+                    "exchange": "SMART",
+                    "conid": "314725235"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "624996469",
+            "companyHeader": "AGILE THERAPEUTICS INC - NASDAQ",
+            "companyName": "AGILE THERAPEUTICS INC",
+            "symbol": "AGRX",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                }
+            ]
+        },
+        {
+            "conid": "273139",
+            "companyHeader": "AGILYSYS INC - NASDAQ",
+            "companyName": "AGILYSYS INC",
+            "symbol": "AGYS",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240719;20241018",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;JUL24;OCT24",
+                    "exchange": "SMART;BATS;BOX;CBOE;CBOE2;EDGX;IBUSOPT;PHLX"
+                },
+                {
+                    "secType": "CFD",
+                    "exchange": "SMART",
+                    "conid": "364530636"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "131969792",
+            "companyHeader": "AGIOS PHARMACEUTICALS INC - NASDAQ",
+            "companyName": "AGIOS PHARMACEUTICALS INC",
+            "symbol": "AGIO",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240517;20240621;20240816;20241220;20250117",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;MAY24;JUN24;AUG24;DEC24;JAN25",
+                    "exchange": "SMART;AMEX;BATS;BOX;CBOE;CBOE2;EDGX;EMERALD;GEMINI;IBUSOPT;ISE;MEMX;MERCURY;MIAX;NASDAQBX;NASDAQOM;PEARL;PHLX;PSE"
+                },
+                {
+                    "secType": "IOPT"
+                },
+                {
+                    "secType": "CFD",
+                    "exchange": "SMART",
+                    "conid": "184169984"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "314453340",
+            "companyHeader": "AGM GROUP HOLDINGS INC - NASDAQ",
+            "companyName": "AGM GROUP HOLDINGS INC",
+            "symbol": "AGMH",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                }
+            ]
+        },
+        {
+            "conid": "249963585",
+            "companyHeader": "AGNC INVESTMENT CORP - NASDAQ",
+            "companyName": "AGNC INVESTMENT CORP",
+            "symbol": "AGNC",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240301;20240308;20240315;20240322;20240328;20240405;20240412;20240419;20240621;20240920;20250117;20260116",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;JUN24;SEP24;JAN25;JAN26",
+                    "exchange": "SMART;AMEX;BATS;BOX;CBOE;CBOE2;EDGX;EMERALD;GEMINI;IBUSOPT;ISE;MEMX;MERCURY;MIAX;NASDAQBX;NASDAQOM;PEARL;PHLX;PSE"
+                },
+                {
+                    "secType": "CFD",
+                    "exchange": "SMART",
+                    "conid": "146224224"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "355718896",
+            "companyHeader": "AGNC INVESTMENT CORP - NASDAQ",
+            "companyName": "AGNC INVESTMENT CORP",
+            "symbol": "AGNCM",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                }
+            ]
+        },
+        {
+            "conid": "285940674",
+            "companyHeader": "ANGC 7 PERP PFD - NASDAQ",
+            "companyName": "ANGC 7 PERP PFD",
+            "symbol": "AGNCN",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                }
+            ]
+        },
+        {
+            "conid": "385817777",
+            "companyHeader": "AGNC INVESTMENT CORP - NASDAQ",
+            "companyName": "AGNC INVESTMENT CORP",
+            "symbol": "AGNCO",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                }
+            ]
+        },
+        {
+            "conid": "403081760",
+            "companyHeader": "AGNC INVESTMENT CORP - NASDAQ",
+            "companyName": "AGNC INVESTMENT CORP",
+            "symbol": "AGNCP",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                }
+            ]
+        },
+        {
+            "conid": "429563695",
+            "companyHeader": "AGORA INC-ADR - NASDAQ",
+            "companyName": "AGORA INC-ADR",
+            "symbol": "API",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": "20240315;20240419;20240621;20240920",
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                },
+                {
+                    "secType": "OPT",
+                    "months": "MAR24;APR24;JUN24;SEP24",
+                    "exchange": "SMART;AMEX;BATS;BOX;CBOE;CBOE2;EDGX;EMERALD;GEMINI;IBUSOPT;ISE;MEMX;MERCURY;MIAX;NASDAQBX;NASDAQOM;PEARL;PHLX;PSE"
+                },
+                {
+                    "secType": "CFD",
+                    "exchange": "SMART",
+                    "conid": "451397468"
+                },
+                {
+                    "secType": "BAG"
+                }
+            ]
+        },
+        {
+            "conid": "202007772",
+            "companyHeader": "AGROFRESH SOLUTIONS INC - VALUE",
+            "companyName": "AGROFRESH SOLUTIONS INC",
+            "symbol": "AGFS",
+            "description": "VALUE",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK",
+                    "exchange": "VALUE;"
+                }
+            ]
+        },
+        {
+            "conid": "596991409",
+            "companyHeader": "AILERON THERAPEUTICS INC - NASDAQ",
+            "companyName": "AILERON THERAPEUTICS INC",
+            "symbol": "ALRN",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                }
+            ]
+        },
+        {
+            "conid": "202380167",
+            "companyHeader": "AIMMUNE THERAPEUTICS INC - VALUE",
+            "companyName": "AIMMUNE THERAPEUTICS INC",
+            "symbol": "AIMT",
+            "description": "VALUE",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK",
+                    "exchange": "VALUE;"
+                }
+            ]
+        },
+        {
+            "conid": "4726067",
+            "companyHeader": "AIR T INC - NASDAQ",
+            "companyName": "AIR T INC",
+            "symbol": "AIRT",
+            "description": "NASDAQ",
+            "restricted": null,
+            "fop": null,
+            "opt": null,
+            "war": null,
+            "sections": [
+                {
+                    "secType": "STK"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "orders": [
+        {
+            "acctId": "DU6036902",
+            "cOID": "null",
+            "orderType": "LMT",
+            "outsideRTH": false,
+            "price": 11,
+            "side": "BUY",
+            "ticker": "",
+            "tif": "DAY",
+            "quantity": 1,
+            "referrer": "",
+            "parentId": "",
+            "useAdaptive": false,
+            "strategy": "Adaptive",
+            "strategyParameters": {
+                "adaptivePriority": "Normal"
+            },
+            "conid": 265598,
+            "conidex": "",
+            "listingExchange": ""
+        }
+    ]
+}

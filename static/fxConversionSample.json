@@ -1,0 +1,11 @@
+{
+    "conid": 12087797,
+    "listingExchange": "IDEALPRO",
+    "secType": "12087797@IDEALPRO",
+    "side": "BUY",
+    "tif": "GTC",
+    "orderType": "LMT",
+    "price": 1.1234,
+    "fxQty": 25000,
+    "isCcyConv": true
+}

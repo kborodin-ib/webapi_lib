@@ -1,0 +1,25 @@
+{
+    "orders": [
+        {
+            "acctId": "U10412366",
+            "conid": 265598,
+            "cOID": "MY_VERY_UNIQUE_TWAP_ORDER_FULL_PARAMS",
+            "secType": "265598@STK",
+            "price": 186.2,
+            "orderType": "LMT",
+            "outsideRTH": false,
+            "side": "BUY",
+            "ticker": "AAPL",
+            "tif": "DAY",
+            "quantity": 1,
+            "strategy": "Twap",
+            "strategyParameters": {
+                "startTime": "14:00:00 US/Eastern",
+                "endTime": "10:00:00 US/Eastern",
+                "allowPastEndTime": true,
+                "catchUp": true,
+                "conditionalPrice": 180.21
+            }
+        }
+    ]
+}

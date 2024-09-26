@@ -1,0 +1,145 @@
+{
+    "error": "\"BUY 3 TURN NASDAQ.NMS\"\nYour account has a minimum of 15 orders working on either the buy or sell side for this particular contract. An additional order on the same side for this contract will not be allowed until an existing order has been cancelled or has executed. Please call the Trade Desk for further details.",
+    "cqe": {
+        "post_payload": {
+            "snapshots": [
+                {
+                    "balances": {
+                        "HKD": "-13514.75",
+                        "ILS": "-202.44",
+                        "MXN": "-745824.08",
+                        "EUR": "-99186.77",
+                        "GBP": "17728.62",
+                        "CAD": "-2710.71",
+                        "USD": "-167173.67",
+                        "INR": "-286237.2",
+                        "BASE": "-237991.3759"
+                    }
+                }
+            ],
+            "rejections": [
+                "Your account has a minimum of 15 orders working on either the buy or sell side for this particular contract. An additional order on the same side for this contract will not be allowed until an existing order has been cancelled or has executed. Please call the Trade Desk for further details."
+            ],
+            "account_id": "DU6036902",
+            "order_currency": "USD",
+            "sec_type": "STK",
+            "clams_tags": [
+                "B__^Your_account_has_a_minimum_of_([0-9]+)_orders_working_on_either_the_buy_or_sell_side_for_this_particular_contract\\._An_additional_order_on_the_same_side_for_this_contract_will_not_be_allowed_until_an_existing_order_has_been_cancelled_or_has_executed\\._Please_call_the_Trade_Desk_for_further_details\\.$"
+            ],
+            "order_total": "12.900000600000002037859303527511656284332275390625",
+            "conid": "463434418",
+            "exchange": "SMART",
+            "order_id": "00f052e7.0001fc06.65f282ab.0001"
+        },
+        "request_method": "POST"
+    },
+    "action": "order_submit_issue"
+}{
+    "error": "\"BUY 3 TURN NASDAQ.NMS\"\nYour account has a minimum of 15 orders working on either the buy or sell side for this particular contract. An additional order on the same side for this contract will not be allowed until an existing order has been cancelled or has executed. Please call the Trade Desk for further details.",
+    "cqe": {
+        "post_payload": {
+            "snapshots": [
+                {
+                    "balances": {
+                        "HKD": "-13514.75",
+                        "ILS": "-202.44",
+                        "MXN": "-745824.08",
+                        "EUR": "-99186.77",
+                        "GBP": "17728.62",
+                        "CAD": "-2710.71",
+                        "USD": "-167173.67",
+                        "INR": "-286237.2",
+                        "BASE": "-237991.3759"
+                    }
+                }
+            ],
+            "rejections": [
+                "Your account has a minimum of 15 orders working on either the buy or sell side for this particular contract. An additional order on the same side for this contract will not be allowed until an existing order has been cancelled or has executed. Please call the Trade Desk for further details."
+            ],
+            "account_id": "DU6036902",
+            "order_currency": "USD",
+            "sec_type": "STK",
+            "clams_tags": [
+                "B__^Your_account_has_a_minimum_of_([0-9]+)_orders_working_on_either_the_buy_or_sell_side_for_this_particular_contract\\._An_additional_order_on_the_same_side_for_this_contract_will_not_be_allowed_until_an_existing_order_has_been_cancelled_or_has_executed\\._Please_call_the_Trade_Desk_for_further_details\\.$"
+            ],
+            "order_total": "12.7200000000000006394884621840901672840118408203125",
+            "conid": "463434418",
+            "exchange": "SMART",
+            "order_id": "00f052e7.0001fc06.65f282ac.0001"
+        },
+        "request_method": "POST"
+    },
+    "action": "order_submit_issue"
+}{
+    "error": "\"BUY 3 TURN NASDAQ.NMS\"\nYour account has a minimum of 15 orders working on either the buy or sell side for this particular contract. An additional order on the same side for this contract will not be allowed until an existing order has been cancelled or has executed. Please call the Trade Desk for further details.",
+    "cqe": {
+        "post_payload": {
+            "snapshots": [
+                {
+                    "balances": {
+                        "HKD": "-13514.75",
+                        "ILS": "-202.44",
+                        "MXN": "-745824.08",
+                        "EUR": "-99186.77",
+                        "GBP": "17728.62",
+                        "CAD": "-2710.71",
+                        "USD": "-167173.67",
+                        "INR": "-286237.2",
+                        "BASE": "-237987.8908"
+                    }
+                }
+            ],
+            "rejections": [
+                "Your account has a minimum of 15 orders working on either the buy or sell side for this particular contract. An additional order on the same side for this contract will not be allowed until an existing order has been cancelled or has executed. Please call the Trade Desk for further details."
+            ],
+            "account_id": "DU6036902",
+            "order_currency": "USD",
+            "sec_type": "STK",
+            "clams_tags": [
+                "B__^Your_account_has_a_minimum_of_([0-9]+)_orders_working_on_either_the_buy_or_sell_side_for_this_particular_contract\\._An_additional_order_on_the_same_side_for_this_contract_will_not_be_allowed_until_an_existing_order_has_been_cancelled_or_has_executed\\._Please_call_the_Trade_Desk_for_further_details\\.$"
+            ],
+            "order_total": "12.7200000000000006394884621840901672840118408203125",
+            "conid": "463434418",
+            "exchange": "SMART",
+            "order_id": "00f052e7.0001fc06.65f282ae.0001"
+        },
+        "request_method": "POST"
+    },
+    "action": "order_submit_issue"
+}{
+    "error": "\"BUY 3 TURN NASDAQ.NMS\"\nYour account has a minimum of 15 orders working on either the buy or sell side for this particular contract. An additional order on the same side for this contract will not be allowed until an existing order has been cancelled or has executed. Please call the Trade Desk for further details.",
+    "cqe": {
+        "post_payload": {
+            "snapshots": [
+                {
+                    "balances": {
+                        "HKD": "-13514.75",
+                        "ILS": "-202.44",
+                        "MXN": "-745824.08",
+                        "EUR": "-99186.77",
+                        "GBP": "17728.62",
+                        "CAD": "-2710.71",
+                        "USD": "-167173.67",
+                        "INR": "-286237.2",
+                        "BASE": "-238003.6025"
+                    }
+                }
+            ],
+            "rejections": [
+                "Your account has a minimum of 15 orders working on either the buy or sell side for this particular contract. An additional order on the same side for this contract will not be allowed until an existing order has been cancelled or has executed. Please call the Trade Desk for further details."
+            ],
+            "account_id": "DU6036902",
+            "order_currency": "USD",
+            "sec_type": "STK",
+            "clams_tags": [
+                "B__^Your_account_has_a_minimum_of_([0-9]+)_orders_working_on_either_the_buy_or_sell_side_for_this_particular_contract\\._An_additional_order_on_the_same_side_for_this_contract_will_not_be_allowed_until_an_existing_order_has_been_cancelled_or_has_executed\\._Please_call_the_Trade_Desk_for_further_details\\.$"
+            ],
+            "order_total": "12.7200000000000006394884621840901672840118408203125",
+            "conid": "463434418",
+            "exchange": "SMART",
+            "order_id": "00f052e7.0001fc06.65f282af.0001"
+        },
+        "request_method": "POST"
+    },
+    "action": "order_submit_issue"
+}

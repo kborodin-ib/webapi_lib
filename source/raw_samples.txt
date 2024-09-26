@@ -1,0 +1,71 @@
+1. BUY BTC @ MKT
+Body = 
+{
+  "orders": [
+    {
+      "side": "BUY",
+      "cashQty":10,
+      "conid": 479624278,
+      "orderType": "MKT",
+      "listingExchange": "PAXOS",
+      "tif": "IOC",                //IOC only for MKT orders
+      "outsideRTH": false
+    }
+  ]
+}
+
+
+
+2. BUY BTC @ LMT 67500
+Body = 
+{
+  "orders": [
+    {
+      "side": "BUY",
+      "quantity": 1,
+      "conid": 479624278,
+      "orderType": "LMT",
+      "price": 67500,
+      "listingExchange": "PAXOS",
+      "tif": "IOC",                //IOC or Minutes?? for LMT orders
+      "outsideRTH": false
+    }
+  ]
+}
+
+
+
+3. SELL BTC @ MKT
+Body = 
+{
+  "orders": [
+    {
+      "side": "SELL",
+      "quantity":0.001,             //Quantity MUST be used for SELL orders, no cashQty
+      "conid": 479624278,
+      "orderType": "MKT",
+      "listingExchange": "PAXOS",
+      "tif": "IOC",                //IOC only for MKT orders
+      "outsideRTH": false
+    }
+  ]
+}
+
+
+
+4. SELL BTC @ LMT 67940
+Body = 
+{
+  "orders": [
+    {
+      "side": "SELL",
+      "quantity": 0.01,            //Quantity MUST be used for SELL orders, no cashQty
+      "conid": 479624278,
+      "orderType": "LMT",
+      "price": 67600,
+      "listingExchange": "PAXOS",
+      "tif": "IOC",                //IOC or Minutes?? for LMT orders
+      "outsideRTH": false
+    }
+  ]
+}

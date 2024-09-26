@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScannerTemplate autoRefresh="true">
+	<ScannerContent varName="content" version="0" watermarkWhenEmpty="false" tabIndex="-1" restoredFromLayoutLibrary="false" scannerName="Scan" pageId="-1" transferableParameter="true" locationText="STK.HK.TSE_JPN" maxItems="-1" snapshot="-1" paused="false" scannerSent="true" chartDividerLocation="0" isFirstInvocation="false" isFilterOpened="false" sortingColId="-1" sortAscending="false" continuousMode="false" readOnly="false">
+		<ExtendedConfigurationMap varName="extendedConfiguration">
+			<String>FXAccount Portfolio Table</String>
+			<TableConfiguration>
+				<ColumnWidthsMap varName="columnWidths"/>
+				<ColumnOrdinalsMap varName="columnOrdinals"/>
+			</TableConfiguration>
+			<String>FXAccount Portfolio Table_Sorting</String>
+			<SortableTableConfiguration column="1" ascending="false"/>
+		</ExtendedConfigurationMap>
+		<PortfolioFilterState varName="filterState" includeZero="true" includeCash="false"/>
+		<Instrument varName="instrument" name="Asia Stocks" m_type="STOCK.HK" secType="STK" filters="ABSCHANGEPERC,AVGRATING,AVGVOLUME,AVGVOLUME_USD,CHANGEOPENPERC,CHANGEPERC,DIVIB,DIVYIELDIB,FEERATE,FIRSTTRADEDATE,GROWTHRATE,HALTED,HASOPTIONS,HISTDIVIB,HISTDIVYIELDIB,IMBALANCE,IMBALANCEADVRATIOPERC,IMPVOLAT,IMPVOLATOVERHIST,INSIDEROFFLOATPERC,INSTITUTIONALOFFLOATPERC,MKTCAP_USD,NEXTDIVAMOUNT,NEXTDIVDATE,NUMPRICETARGETS,NUMRATINGS,NUMSHARESINSIDER,NUMSHARESINSTITUTIONAL,OPENGAPPERC,PEAELIGIBLE,PRICE_USD,REGIMBALANCE,REGIMBALANCEADVRATIOPERC,SHORTABLESHARES,SHORTSALERESTRICTED,SIC,ISSUER_COUNTRY_CODE,STKTYPE,STVOLUME_3MIN,STVOLUME_5MIN,STVOLUME_10MIN,TRADECOUNT,TRADERATE,UNSHORTABLE,VOLUME,VOLUMERATE,VOLUME_USD,RCGLTCLASS,RCGLTENDDATE,RCGLTIVALUE,RCGLTTRADE,RCGITCLASS,RCGITENDDATE,RCGITIVALUE,RCGITTRADE,RCGSTCLASS,RCGSTENDDATE,RCGSTIVALUE,RCGSTTRADE,ESG_SCORE,ESG_COMBINED_SCORE,ESG_CONTROVERSIES_SCORE,ESG_RESOURCE_USE_SCORE,ESG_EMISSIONS_SCORE,ESG_ENV_INNOVATION_SCORE,ESG_WORKFORCE_SCORE,ESG_HUMAN_RIGHTS_SCORE,ESG_COMMUNITY_SCORE,ESG_PRODUCT_RESPONSIBILITY_SCORE,ESG_MANAGEMENT_SCORE,ESG_SHAREHOLDERS_SCORE,ESG_CSR_STRATEGY_SCORE,ESG_ENV_PILLAR_SCORE,ESG_SOCIAL_PILLAR_SCORE,ESG_CORP_GOV_PILLAR_SCORE,IV_RANK13,IV_RANK26,IV_RANK52,IV_PERCENTILE13,IV_PERCENTILE26,IV_PERCENTILE52,HV_RANK13,HV_RANK26,HV_RANK52,HV_PERCENTILE13,HV_PERCENTILE26,HV_PERCENTILE52,PRICE_2_SALES,EQUITY_PER_SHARE,UTILIZATION,SSCORE,SCHANGE,SVSCORE,SVCHANGE,EPS_CHANGE_TTM,REV_CHANGE,REV_GROWTH_RATE_5Y,PAYOUT_RATIO_TTM,PRICE_2_CASH_TTM,OPERATING_MARGIN_TTM,NET_PROFIT_MARGIN_TTM,RETURN_ON_INVESTMENT_TTM" group="STK.GLOBAL" shortName="ASIA" cloudScanNotSupported="false"/>
+		<ScanType varName="parameter" displayName="Top % Gainers" scanCode="TOP_PERC_GAIN" instruments="STK,STOCK.NA,STOCK.EU,STOCK.ME,STOCK.HK,ETF.EQ.US,ETF.FI.US,IND.US,IND.EU,IND.HK,FUT.US,FUT.NA,FUT.EU,FUT.HK,SSF.US,SSF.NA,SSF.EU,SSF.HK,BOND" absoluteColumns="false" supportsSorting="true" respSizeLimit="#" snapshotSizeLimit="500" delayedAvail="yes" feature="PCT" searchName="% Gainers (High-Low)" searchDefault="false" access="allowed">
+			<Columns varName="columns">
+				<ColumnSetRef colId="0" name="PctPerf" display="false">
+					<displayType>DATA</displayType>
+				</ColumnSetRef>
+				<Column colId="48" name="Time in Scan" display="true">
+					<displayType>DATA</displayType>
+				</Column>
+			</Columns>
+		</ScanType>
+		<SettingValueList varName="settingList"/>
+		<AdvancedFilter varName="filter">
+		</AdvancedFilter>
+	</ScannerContent>
+	<ArString varName="fullySelectedNodesList">
+		<String>STK.HK</String>
+	</ArString>
+	<Columns varName="tickerColumns" type="jcolumn.TickerColumns">
+		<ContractSingleDescColumn colId="99" width="125" alignment="2" fg="-16777216" bg="-1052974" uniqueId="0" maxSymbolWidth="0" overrideBg="false" overrideFg="false"/>
+		<AverageVolumeColumn colId="370" width="76" alignment="4" uniqueId="0" maxSymbolWidth="0" overrideBg="false" overrideFg="false"/>
+		<InsiderPercentOwnedColumn colId="963" width="76" alignment="4" uniqueId="0" maxSymbolWidth="0" overrideBg="false" overrideFg="false"/>
+		<BidPriceColumn colId="4" width="104" alignment="4" uniqueId="0" maxSymbolWidth="0" overrideBg="false" overrideFg="false" prohibitDynamicColors="false"/>
+		<ChangeColumn colId="16" width="90" alignment="4" uniqueId="0" maxSymbolWidth="0" overrideBg="false" overrideFg="false" showPercent="true" prohibitDynamicColors="false"/>
+		<TradeRateColumn colId="465" width="76" alignment="4" uniqueId="0" maxSymbolWidth="0" overrideBg="false" overrideFg="false"/>
+		<FeeRateColumn colId="440" width="90" alignment="4" uniqueId="0" maxSymbolWidth="0" overrideBg="false" overrideFg="false"/>
+		<VolumeFxColumn colId="450" width="76" alignment="4" uniqueId="0" maxSymbolWidth="0" overrideBg="false" overrideFg="false"/>
+		<ShortTermVolume3MinutesColumn colId="167" width="76" alignment="4" uniqueId="0" maxSymbolWidth="0" overrideBg="false" overrideFg="false"/>
+		<AskPriceColumn colId="5" width="104" alignment="4" uniqueId="0" maxSymbolWidth="0" overrideBg="false" overrideFg="false" prohibitDynamicColors="false"/>
+		<VolumeRateColumn colId="467" width="76" alignment="4" uniqueId="0" maxSymbolWidth="0" overrideBg="false" overrideFg="false"/>
+		<InScanTimeColumn colId="48" width="76" alignment="4" uniqueId="0" maxSymbolWidth="0" overrideBg="false" overrideFg="false"/>
+		<UnderlyingOptionImpliedVolatilityColumn colId="59" width="76" alignment="4" uniqueId="0" maxSymbolWidth="0" overrideBg="false" overrideFg="false"/>
+		<MarketCapitalizationColumn colId="400" width="111" alignment="4" uniqueId="0" maxSymbolWidth="0" overrideBg="false" overrideFg="false" fieldKey="MKTCAP"/>
+	</Columns>
+</ScannerTemplate>
