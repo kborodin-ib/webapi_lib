@@ -7,15 +7,15 @@ import time
 import csv
 import sys
 
-from cplib_v0.exceptions import *
+from webapilib.exceptions import *
 from json.decoder import JSONDecodeError
-from cplib_v0.orderFactory import createSampleContract, createSampleOrder, createBracketOrder, Contract, Order
-from cplib_v0.endpoints import endpoints
-from cplib_v0.contract import Instrument, Contract
-from cplib_v0.errorParser import errorHandler
+from webapilib.orderFactory import createSampleContract, createSampleOrder, createBracketOrder, Contract, Order
+from webapilib.endpoints import endpoints
+from webapilib.contract import Instrument, Contract
+from webapilib.errorParser import errorHandler
 from json.decoder import JSONDecodeError
-from cplib_v0.utils import createScanner
-from cplib_v0.endpoints import base_url
+from webapilib.utils import createScanner
+from webapilib.endpoints import base_url
 
 
 requests.packages.urllib3.disable_warnings()

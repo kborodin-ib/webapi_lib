@@ -1,6 +1,6 @@
 #! /usr/bin/env python3
 
-from cplib_v0.client import Session
+from ../source/client import Session
 import time
 import logging
 

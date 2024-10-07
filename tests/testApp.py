@@ -4,11 +4,11 @@ import json
 import sys
 import time
 import random
-from cplib_v0.client import Broker, ContractDetailsManager
-from cplib_v0.orderFactory import Contract, Order
-from cplib_v0.orders import MktOrder, LimitOrder, CashMktOrder, TrailLimit, TrailStop, PegToMid
-from cplib_v0.contract import Contract as BaseContract, Instrument
-from cplib_v0.exceptions import * 
+from webapilib.client import Broker, ContractDetailsManager
+from webapilib.orderFactory import Contract, Order
+from webapilib.orders import MktOrder, LimitOrder, CashMktOrder, TrailLimit, TrailStop, PegToMid
+from webapilib.contract import Contract as BaseContract, Instrument
+from webapilib.exceptions import * 
     
 def basicConnectionTest():
     broker = Broker()

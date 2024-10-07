@@ -1,6 +1,6 @@
 #! /usr/bin/env python3
 
-from cplib_v0.endpoints import endpoints
+from webapilib.endpoints import endpoints
 import requests
 import json
 import sys
