@@ -1,2 +1,1 @@
-# cplib
-init
+.
