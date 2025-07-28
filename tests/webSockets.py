@@ -92,6 +92,7 @@ def marketDepthRequest(symbol=None, secType=None, conID=None, acctID=None, excha
         exchange = details['exchange']
 
     msg = f"sbd+{acctID}+{conID}+{exchange}"
+    msg = f"sbd+{acctID}+{780020212}"
 
     return msg 
 
@@ -112,7 +113,7 @@ def hdrMsg(conID, period, barSize, source, dateFormat):
     return msg
 
 def create_STR_req():
-    msg = 'str+{\'realtimeUpdatesOnl\': true, \'days\': \'\'}'
+    msg = 'str+{\'realtimeUpdatesOnly\': true, \'days\': \'\'}'
     return msg
 
 def unsubscibeHistoricalData(serverID):
@@ -135,7 +136,6 @@ def createRequests(conIdList=None):
 
 def conditionalOrder():
     return
-
 
 async def sendMessages(msgList):
 
@@ -165,8 +165,7 @@ async def sendMessages(msgList):
 
             rst = await websocket.recv()
             jsonData = json.loads(rst.decode())
-            
-            print(jsonData)
+
             if 'topic' in jsonData.keys():
                 
                 if jsonData['topic'] == 'str':
@@ -182,15 +181,22 @@ async def sendMessages(msgList):
                     print("historical data should be unsubscribed now")
 
                 if jsonData['topic'].startswith("sbd"):
-                    print("market depth --> ", jsonData['topic'])
+                    formatted = json.dumps(jsonData, indent=2)
+                    print(formatted)
+                    with open('sample.json', 'a') as f:
+                        json.dump(jsonData, f, indent=2)
 
                 if jsonData['topic'] == 'sor':
-                    response = f"{jsonData['topic']} -->{jsonData}" 
-                    print(response)
+                    response = f"{jsonData['topic']} -->{json.dumps(jsonData, indent=4)}"
+                    cOID_presence = "order_ref" in jsonData['args'][0].keys()
+                    print("SOR: ", response)
+                    print(f"[+] order_ref key is present: {cOID_presence} ")
+
                     
 
                 if jsonData['topic'] == "sbd" and mktDepthUnsubscribed == False:
-                    print(jsonData)
+                    formatted = json.dumps(jsonData, indent=2)
+                    print(formatted)
                 
                 if jsonData['topic'].startswith('smd'):
                     timestamp = jsonData['_updated']
@@ -214,7 +220,7 @@ async def sendMessages(msgList):
             if 'error' in jsonData.keys():
                 print(jsonData['error'])
 
-def testMktDepthRequests():
+def MktDepthRequests():
     symbols = [("BMW", "STK"),("AAPL", "STK")]
     messages = []
     for s in symbols:
@@ -222,7 +228,7 @@ def testMktDepthRequests():
         messages.append(msg)
     asyncio.get_event_loop().run_until_complete(sendMessages(messages))
 
-def testHdrRequest():
+def HdrRequest():
     hdr = hdrMsg('265598', period = '5min', barSize='5min', source='trades',
             dateFormat='%o/%c/%h/%l')
     messages = [hdr]
@@ -234,25 +240,32 @@ def liveOrderUpdates():
     messages = [msg]
     asyncio.get_event_loop().run_until_complete(sendMessages(messages))
 
-def liveMarketData():
-    msg = create_SMD_req('380912689', '6509,7308,7309,7310,7311')
-    print(type(msg))
-    messages = [msg]
-    asyncio.get_event_loop().run_until_complete(sendMessages(messages))
-
-def tesLiveOrderUpdates():
+def LiveOrderUpdates():
     msg = create_SOR_req()
     messages = [msg]
     asyncio.get_event_loop().run_until_complete(sendMessages(messages))
 
-def testSMHrequest():
+def SMHrequest():
     smh_req = create_SMH_req(265598, "1d", "1hour", "trades", "%o/%c/%h/%l") 
     messages = [smh_req]
     asyncio.get_event_loop().run_until_complete(sendMessages(messages))
 
+def sendMultipleMessages():
+   # smh_req = create_SMH_req(265598, "1d", "1hour", "trades", "%o/%c/%h/%l")
+    sor_msg = create_SOR_req()
+    smd_msg = create_SMD_req('265598', '6509,7308,7309,7310,7311')
+    str_msg = create_STR_req()
+    messages = [sor_msg, smd_msg ]
+    asyncio.get_event_loop().run_until_complete(sendMessages(messages))
+
+def liveMarketData():
+    req = create_SMD_req('12087792', '84,86,88,85,31,6509,7762,7697')
+    messages = [req]
+    asyncio.get_event_loop().run_until_complete(sendMessages(messages))
+
 
 def main():
-    testSMHrequest()
+    liveMarketData()
 
 if __name__ == "__main__":
     urllib3.disable_warnings()
