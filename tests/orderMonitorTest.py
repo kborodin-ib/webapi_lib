@@ -1,103 +1,131 @@
 #! /usr/bin/env python3
 
+# TODO:
+# 1. Get live orders for the current day
+# 2. Stream live order updates
+# 3. Loop order placement
+# 4. Get live order updates from HTTP endpoint
+# 5. Restore streaming updates
+
+
+import requests
 import time
-import logging
-from cplib_v0.client import Broker 
-from cplib_v0.orders import LimitOrder
-from cplib_v0.contract import Contract
-import random
 import sys
+import websockets
+import json
+import urllib3
+import logging
+import ssl
+import asyncio
+import threading
 
-class Bot(Broker):
+ssl_context = ssl._create_unverified_context()
 
-    def __init__(self):
-        Broker.__init__(self)
-        Broker.suppressPrecautions(self, 'o354,o163')
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+logging.basicConfig(filename='orderMon.log', format='%(asctime)s %(message)s',
+                    datefmt='%m/%d/%Y %I:%M:%S %p',
+                    encoding='utf-8', level=logging.DEBUG)
 
-    def placeSingleLmtOrder(self, conid, action,
-            price, quantity, tif, cOID=''):
-        contract = Contract(conid)
-        order = LimitOrder(action=action, limitPrice=price, 
-                totalQuantity=quantity, tif=tif, cOID=cOID)
-        response = self.placeSingleOrder(contract, order)
-        return response['order_id']
+base_url = "https://172.23.208.1:5000/v1/api"
+local_ip = "172.23.208.1:5000"
+ws_topic = 'sor'
+accountId = "DU6036902"
 
-    def modifyOrder(self):
-        return
+def checkAuthStatus():
 
-    def matchLiveOrderByCOID(self, orderRef, status=''):
-        liveOrders = self.retrieveLiveOrders(filters=status)
-        
-        if len(liveOrders['orders']) != 0:
-            logging.info(f"{len(liveOrders['orders'])} orders in total")
-            for order in liveOrders['orders']:
-
-                try:
-                    if order['order_ref'] == orderRef:
-                        logging.info(f"Retrieved order: {order['orderId']}, {order['status']}, {order['order_ref']}")
-                        orderId = order['orderId']
-                        return orderId
-
-                except KeyError:
-                    continue
-        else: 
-            logging.info("No live orders")
-
-    def matchLiveOrderByOID(self, oid, status=''):
-        liveOrders = self.retrieveLiveOrders(filters=status)
-        logging.info(f"{len(liveOrders['orders'])} orders in total")
-        print(len(liveOrders['orders']))
-        if len(liveOrders['orders']) == 1000:
-            # Filtering orders out might be a thing
-            self.useTheForceLuke()
-            time.sleep(5)
-            liveOrders = self.retrieveLiveOrders(filters=status)
-        if len(liveOrders['orders']) != 0:
-            for order in liveOrders['orders']:
-
-                try:
-                    if order['orderId'] == oid:
-                        logging.info(f"Retrieved order: {order['orderId']}, {order['status']}")
-                        orderId = order['orderId']
-                        return int(orderId)
-
-                except KeyError:
-                    continue
-        else: 
-            logging.info("No live orders")
-
-
-    def getAllLiveOrders(self):
-        liveOrders = self.retrieveLiveOrders(filters='')
-        return liveOrders
-
-    def checkLiveOrderUpdates(self, cOID=''):
-        response = self.placeSingleLmtOrder(conid=265598, action="SELL", price=10,
-                quantity=2, tif='GTC', cOID=cOID)
-        print(f"placeSingleLmtOrder response: {response}")
-#        time.sleep(2)
-        oid = int(response)
-        orderId = self.matchLiveOrderByOID(oid=oid, status='')
-        print(type(orderId))
-        logging.info(f'Attempting to cancel order with id {orderId}')
-        self.cancelOrder(orderId)
-        logging.info(f'Requesting the order with id {orderId} after cancellation')
-#        time.sleep(2)
-        orderId = self.matchLiveOrderByOID(oid=orderId, status='')
-        print(f"Order id: {orderId}")
-        if orderId == None:
-            print("Whoopsie")
+    url = base_url + '/iserver/auth/status'
+    response = requests.get(url, verify=False)
+    print(response)
+    if response.status_code == 200:
+        response_json = json.loads(response.text)
+        try:
+            auth_status = response_json['authenticated']
+            con_status = response_json['connected']
+            competing = response_json['competing']
+        except Exception as err:
+            print(f'[+] Error: {err}')
+            logging.debug(f"Failed auth: {response_json}")
             sys.exit()
+        if auth_status and con_status and not competing:
+            print('[+] Session established')
+            logging.debug(f"Authenticated successfully")
+            return True
+    if response.status_code == 404:
+        print(f"[+] this url {url} is invalid; 404")
+        sys.exit()
+    if response.status_code == 401:
+        print("[+] Authenticate session first")
+        sys.exit()
 
-    def run(self):
-        self.connect()
-        # Assigns the account id of currently logged in username
-        self.setAccountId()
-        cOID = random.randint(0, 99999)
+def getLiveOrders():
+    url = '/iserver/account/orders'
+    response = requests.get(base_url + url, verify=False)
+    if response.status_code == 200:
+        print(response.text)
+
+async def sorLiveOrders():
+    messages = ['sor']
+    async with websockets.connect("wss://" + local_ip + "/v1/api/ws", ssl=ssl_context) as websocket:
+
+        rst = await websocket.recv()
+        print("Initial message: ", rst)
+
+        msg = messages.pop(0)
+        await asyncio.sleep(1)
+        await websocket.send(msg)
         while True:
-            self.checkLiveOrderUpdates()
-            time.sleep(1)
+            rst = await websocket.recv()
+            print(rst)
+
+def run_sor_in_thread():
+    asyncio.run(sorLiveOrders())
+
+
+def orderLoop():
+    url = base_url + f"/iserver/account/{accountId}/orders"
+    order_payload = {
+            "orders": [
+                {
+                    "conidex": "793175227",
+                    "orderType": "LMT",
+                    "side": "SELL",
+                    "tif": "DAY",
+                    "quantity": 1,
+                    "price": 0.05,
+                    "outsideRth": True,
+                    }
+                ]
+            }
+    while True:
+        response = requests.post(url, json=order_payload, verify=False)
+        if response.status_code == 200:
+            print(response.text)
+            resp_json = json.loads(response.text)
+            if 'id' in resp_json[0].keys():
+                print("requires confirmation")
+                loggin.debug("Order was not submitted due to: resp_json[0]['message']")
+        time.sleep(2)
+
+def cancelAll():
+    url = f"/iserver/account/{accountId}/order/-1"
+    response = requests.delete(base_url + url, verify=False)
+    if response.status_code == 200:
+        print(response.text)
 
 if __name__ == "__main__":
-    bot = Bot()
-    bot.run()
+    authStatus = checkAuthStatus()
+    print(authStatus)
+    if authStatus:
+        try:
+            monitor_thread = threading.Thread(target=run_sor_in_thread)
+            order_thread = threading.Thread(target=orderLoop)
+            monitor_thread.start()
+            time.sleep(0.5)
+            order_thread.start()
+            order_thread.join()
+            monitor_thread.join()
+        except KeyboardInterrupt as err:
+            cancelAll()
+
+
+#        getLiveOrders()
